@@ -5,7 +5,7 @@ Struttura del Progetto
 
 La struttura del progetto è organizzata in modo modulare. Ecco una panoramica dei file principali:
 
-
+```
 / (root)
 ├── index.html           // Homepage: mostra la griglia dei libri con paginazione
 ├── detail.html          // Pagina dei dettagli: visualizza le informazioni di un singolo libro
@@ -25,7 +25,7 @@ La struttura del progetto è organizzata in modo modulare. Ecco una panoramica d
     └── services
         ├── book-service.js               // Servizio per ottenere i dati dei libri dall'API
         └── storage-service.js            // Servizio per gestire il salvataggio dei libri preferiti (localStorage)
-
+```
 
 Descrizione File per File
 1. HTML

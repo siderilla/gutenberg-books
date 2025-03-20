@@ -1,12 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   margin: 0px;
   padding: 0px;
-
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.book-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+.book-flex, .starred-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 20px; 
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 4px 4px 0 #000;
+  transition: transform 0.2s;
+  width: 200px; 
+  height: 300px;
+  margin: 10px; 
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.book-container:hover {
+  transform: scale(1.05);
+}
+
+.book-image {
+  width: 150px;
+  height: 200px;
+  image-rendering: pixelated;
+  border: 2px solid #000;
+  margin-bottom: 10px;
+}
+
+.book-title {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.save-button {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  image-rendering: pixelated;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #555;
 }

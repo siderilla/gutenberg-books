@@ -21,3 +21,5 @@
 # se premo il tasto edit si apre una nuova forma con i campi precompilati con i dati dello studente
 # salvato lo studente editato, sovrascrive i dati precedenti
 # nella edit di studente, aggiungere un bottone per cancellare lo studente
+
+# 4) aggiungere funzione bloccacoppia

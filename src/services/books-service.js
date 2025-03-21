@@ -20,6 +20,16 @@ export default class BookService {
         return results;
     }
 
+    async getDataSearch(title, topic) {
+        const url = BookService.BASE_URL + '?search=' + title + '&topic=' + topic;
+        
+        const response = await fetch(url);
+        const data = await response.json();
+        const results = data.results;
+
+        return results;
+    }
+
     async nextPage() {
         if(this.page < BookService.MAX_PAGE) {
             this.page++;

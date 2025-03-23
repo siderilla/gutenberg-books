@@ -6,20 +6,3 @@
 # se l'utente cerca solo topic: si cerca solo per topic
 # se l'utente cerca entrambi: dovrebbe funzionare senza ulteriori modifiche
 # clear the search
-
-# -- studentrandomizer --
-
-# 1) ad ogni lancio, controlla se c'è un array di students nel localstorageù
-# if(students) localStorage.setItem('students', JSON.stringify(students)) ??
-# se esiste carica quell'array, altrimenti scrivi il contenuto del json sul localstorage e lo carichi
-
-# 2) aggiungere funzionalità per aggiungere studenti con bottone
-# quando viene cliccato il tasto aggiungi studente, apri nuova pagina con una form che consente di aggiungere uno studente
-# e salvarlo nell'array contenuto nel localstorage
-
-# 3) aggiungere funzione edita studente che aggiunge un bottone per ogni card studente
-# se premo il tasto edit si apre una nuova forma con i campi precompilati con i dati dello studente
-# salvato lo studente editato, sovrascrive i dati precedenti
-# nella edit di studente, aggiungere un bottone per cancellare lo studente
-
-# 4) aggiungere funzione bloccacoppia
